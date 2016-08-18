@@ -21,6 +21,10 @@ Creates temporary email addresses for your **uberspace** qmail system. They can 
 	1. Subdomains and `.htaccess` together let get you URLs like `tmp-qmail.mail.example.com` which redirect to the temporary email address. Mostly it opens the users email client. 
 	1. `current_mail.html` contains a HTML-formatted email address link. Remove it, if you do not need it. 
 	1. `current_mail.txt` contains the temporary email address as plaintext. You can use it in your server scripts e.g. `<?php include("current_mail.txt"); ?>`
+
+# usage
+1. `./create.sh` creates all configured email addresses.
+1. `./create.sh 3` creates only the configured email address with index 3. 
 1. Using runwhen (https://wiki.uberspace.de/system:runwhen) you can regulary create new temporary email addresses. 
 
 
