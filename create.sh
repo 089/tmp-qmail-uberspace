@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
-#
-#
-#
-#
+# Creates temporary email addresses for your **uberspace** qmail system. They can be included dynamically (e.g. with PHP) and you can use them for instance for your imprint. So there is only a low risk that you receive spam mails through these email addresses. 
+# 
+# https://github.com/089/tmp-qmail-uberspace
+# http://www.gnu.org/licenses/gpl-3.0.html, http://www.gnu.de/documents/gpl.de.html
 
 CONFIGFILE="./config.cfg"
 CURRENTFILE="current_mail"
